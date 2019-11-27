@@ -8,8 +8,7 @@ before_script:
 addons:
   homebrew:
     packages:
-    - libssl
-    - libssl-dev
+    - openssl
 script:
   - zola build
 
